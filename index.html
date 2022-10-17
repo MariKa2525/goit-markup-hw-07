@@ -316,15 +316,12 @@
             <address>
                 <a href="https://goo.gl/maps/m37v5d8VHXMpui1S7" target="_blank" rel="noopener noreferrer"
                 class="footer__location">м. Київ, пр-т Лесі Українки, 26</a>
-            <ul class="footer__list list">
-                <li class="mail-items">
-                    
+            <ul class="footer__contacts list">
+                <li class="footer__contacts-item">
+                    <a href="mailto:info@devstudio.com" class="footer__contacts-link">info@devstudio.com </a>
                 </li>
-                <li class="mail-items">
-                    <a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com </a>
-                </li>
-                <li class="mail-items">
-                    <a href="tel:+380961111111" class="mail link">+38 096 111 11 11 </a>
+                <li class="footer__contacts-item">
+                    <a href="tel:+380961111111" class="footer__contacts-link">+38 096 111 11 11 </a>
                 </li>
             </ul>
         </address>
@@ -332,44 +329,43 @@
 
 
 
-        <div class="footer-icon">
-            <p class="social-text">приєднуйтесь</p>
-            <ul class="social-list list">
-                <li class="social-item">
-                    <a href="" class="social-link link">
-                        <svg class="team-icon" width="20px" height="20px">
+        <div class="footer__social">
+            <p class="footer__header">Приєднуйтесь</p>
+            <ul class="social-network social-network__footer list">
+                <li class="social-network__item">
+                    <a href="" class="social-network__footer-link social-network__link">
+                        <svg class="social-network__icon" width="20px" height="20px">
                             <use href="./image/icons.svg#icon-instagram"></use>
                         </svg></a>
                 </li>
-                <li class="social-item">
-                    <a href="" class="social-link link">
+                <li class="social-network__item">
+                    <a href="" class="social-network__footer-link social-network__link">
                         <svg class="team-icon" width="20px" height="20px">
                             <use href="./image/icons.svg#icon-twitter"></use>
                         </svg></a>
                 </li>
-                <li class="social-item">
-                    <a href="" class="social-link link">
+                <li class="social-network__item">
+                    <a href="" class="social-network__footer-link social-network__link">
                         <svg class="team-icon" width="20px" height="20px">
                             <use href="./image/icons.svg#icon-facebook"></use>
                         </svg></a>
                 </li>
-                <li class="social-item">
-                    <a href="" class="social-link link">
-                        <svg class="team-icon" width="20px" height="20px">
+                <li class="social-network__item">
+                    <a href="" class="social-network__footer-link social-network__link">
+                        <svg class="social-network__icon" width="20px" height="20px">
                             <use href="./image/icons.svg#icon-linkedin"></use>
                         </svg></a>
                 </li>
             </ul>
         </div>
 
-        <div class="email-input-footer">
-           
-            <p class="email-input-text">Підпишіться на розсилку</p>
-        <form class="email-item">
-            <label class="email-lable">
-            <input class="email-input" type="email" name="email" placeholder="E-mail" />
+        <div class="footer__email">
+            <p class="footer__header">Підпишіться на розсилку</p>
+        <form class="footer__email-item">
+            <label>
+            <input class="footer__email-input" type="email" name="email" placeholder="E-mail" />
             </label>
-            <button  type="submit" name="button" class="email-input-btn">Підписатися <svg class="off-icon" width="24px" height="24px">
+            <button  type="submit" name="button" class="footer__email-btn">Підписатися <svg class="off-icon" width="24px" height="24px">
                 <use href="./image/icons.svg#icon-icon-send"></use>
             </svg></button>
         </form>
@@ -383,55 +379,55 @@
 
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button data-modal-close class="modal-btn" type="button">
-            <svg class="off-icon" width="11px" height="11px">
+        <button data-modal-close class="close__button" type="button">
+            <svg class="close__icon" width="11px" height="11px">
                 <use href="./image/icons.svg#icon-vector"></use>
             </svg></button>
 
-            <p class="text-form">Залиште свої дані, ми вам передзвонимо</p>
+            <p class="modal__text">Залиште свої дані, ми вам передзвонимо</p>
 
         <form class="form" autocomlete="0ff">
             
-            <label class="form-fild">
-                <input class="form-input" tape="text" name="name"  placeholder="" />
-                <span class="form-label">Ім'я</span>
-            <svg class="form-icon" width="18px" height="18px">
+            <label class="form__fild">
+                <input class="form__input" tape="text" name="name"  placeholder="" />
+                <span class="form__label">Ім'я</span>
+            <svg class="form__icon" width="18px" height="18px">
                 <use href="./image/icons.svg#icon-person"></use>
             </svg>
             </label>
           
-            <label class="form-fild">
-                <input class="form-input" tape="tel" name="tel"  placeholder=""  />
-                <span class="form-label">Телефон</span>
-                <svg class="form-icon" width="18px" height="18px">
+            <label class="form__fild">
+                <input class="form__input" tape="tel" name="tel"  placeholder=""  />
+                <span class="form__label">Телефон</span>
+                <svg class="form__icon" width="18px" height="18px">
                     <use href="./image/icons.svg#icon-phone"></use>
                 </svg>
             </label>
 
-            <label class="form-fild">
-                <input class="form-input" tape="email" name="mail" placeholder="" />
-                <span class="form-label">Пошта</span>
-                <svg class="form-icon" width="18px" height="18px">
+            <label class="form__fild">
+                <input class="form__input" tape="email" name="mail" placeholder="" />
+                <span class="form__label">Пошта</span>
+                <svg class="form__icon" width="18px" height="18px">
                     <use href="./image/icons.svg#icon-email"></use>
                 </svg>
             </label>
 
-            <label class="form-fild">
-                <textarea class="form-textarea" name="comment" rows="5" placeholder="Введіть текст" ></textarea>
-                <span class="laber-comment">Коментар</span>
+            <label class="form__fild">
+                <textarea class="form__textarea" name="comment" rows="5" placeholder="Введіть текст" ></textarea>
+                <span class="form__comment">Коментар</span>
             </label>
            
-            <div class="form-chekbox"> 
-            <label class="checkbox-label">
-                <input class="checkbox-input" type="checkbox" type="checkbox" name="topic" 
+            <div class="form__chekbox"> 
+            <label class="form__chekbox-label">
+                <input class="form__chekbox-input" type="checkbox" type="checkbox" name="topic" 
                 value="check" />
-                <span class="checkbox-icon"></span>
-               <span class="label-check-text">Погоджуюся з розсилкою та приймаю <a class="contract-check" href="#Умови договору">Умови договору</a></span>
+                <span class="form__chekbox-icon"></span>
+               <span class="form__chekbox-text">Погоджуюся з розсилкою та приймаю <a class="form__chekbox-contract" href="#Умови договору">Умови договору</a></span>
             </label>
         </div>
 
-        <div class="btn"> 
-            <button type="submit" name="button" class="form-btn">Відправити</button>
+        <div class="form__btn"> 
+            <button type="submit" name="button" class="form__batton">Відправити</button>
 </div>
 </form>
         
