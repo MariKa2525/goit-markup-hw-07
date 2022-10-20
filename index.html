@@ -23,7 +23,7 @@
                 </a>
                 <ul class="navbar__list list">
                     <li class="navbar__item navbar__item--active">
-                        <a href="./index.html" class="navbar__link ">Студія</a></li>
+                        <a href="./index.html" class="navbar__link">Студія</a></li>
                     <li class="navbar__item">
                         <a href="./portfolio.html" class="navbar__link">Портфоліо</a></li>
                     <li class="navbar__item">
@@ -390,7 +390,7 @@
                         <input class="email__input" type="email" name="email" placeholder="E-mail" />
                     </label>
                     <button  type="submit" name="button" class="button button__primary">Підписатися
-                        <svg class="off-icon" width="24px" height="24px">
+                        <svg  width="24px" height="24px">
                             <use href="./image/icons.svg#icon-icon-send"></use>
                         </svg>
                     </button>
@@ -403,26 +403,23 @@
 
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button data-modal-close class="close__button" type="button">
+        <button data-modal-close class="modal__button" type="button">
             <svg class="close__icon" width="11px" height="11px">
                 <use href="./image/icons.svg#icon-vector"></use>
-            </svg></button>
-
-            <p class="modal__text">Залиште свої дані, ми вам передзвонимо</p>
-
+            </svg>
+        </button>
+        <p class="modal__text">Залиште свої дані, ми вам передзвонимо</p>
         <form class="form" autocomlete="0ff">
-            
-            <label class="form__fild">
+                <label class="form__fild">
                 <input class="form__input" tape="text" name="name"  placeholder="" />
-                <span class="form__label">Ім'я</span>
+                <span class="form__text">Ім'я</span>
             <svg class="form__icon" width="18px" height="18px">
                 <use href="./image/icons.svg#icon-person"></use>
             </svg>
             </label>
-          
             <label class="form__fild">
                 <input class="form__input" tape="tel" name="tel"  placeholder=""  />
-                <span class="form__label">Телефон</span>
+                <span class="form__text">Телефон</span>
                 <svg class="form__icon" width="18px" height="18px">
                     <use href="./image/icons.svg#icon-phone"></use>
                 </svg>
@@ -430,27 +427,27 @@
 
             <label class="form__fild">
                 <input class="form__input" tape="email" name="mail" placeholder="" />
-                <span class="form__label">Пошта</span>
+                <span class="form__text">Пошта</span>
                 <svg class="form__icon" width="18px" height="18px">
                     <use href="./image/icons.svg#icon-email"></use>
                 </svg>
             </label>
 
-            <label class="form__fild">
+            <label class="form__fild form__fild-textarea">
                 <textarea class="form__textarea" name="comment" rows="5" placeholder="Введіть текст" ></textarea>
                 <span class="form__comment">Коментар</span>
             </label>
            
-            <div class="form__chekbox"> 
-            <label class="form__chekbox-label">
-                <input class="form__chekbox-input" type="checkbox" type="checkbox" name="topic" 
+            <div class="chekbox"> 
+            <label class="chekbox__label">
+                <input class="chekbox__input" type="checkbox" type="checkbox" name="topic" 
                 value="check" />
-                <span class="form__chekbox-icon"></span>
-               <span class="form__chekbox-text">Погоджуюся з розсилкою та приймаю <a class="form__chekbox-contract" href="#Умови договору">Умови договору</a></span>
+                <span class="chekbox__icon"></span>
+               <span class="chekbox__text">Погоджуюся з розсилкою та приймаю <a class="chekbox__contract" href="#Умови договору">Умови договору</a></span>
             </label>
         </div>
 
-        <div class="form__btn"> 
+        <div class="form__inner"> 
             <button type="submit" name="button" class="button">Відправити</button>
 </div>
 </form>
