@@ -339,9 +339,6 @@ body {
   margin-bottom: 0;
 }
 
-.work {
-  padding-bottom: 0;
-}
 .work__list {
   display: flex;
 }
