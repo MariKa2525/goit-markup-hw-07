@@ -4,14 +4,22 @@
 @import "./components/social";
 @import "./components/buttons";
 
-@import "./layouts/page-header";
+@import "./layouts/header";
+@import "./layouts/navbar";
+@import "./layouts/contacts";
+
 @import "./layouts/hero";
 @import "./layouts/feature";
 @import "./layouts/work";
 @import "./layouts/team";
 @import "./layouts/client";
+
 @import "./layouts/portfolio";
+@import "./layouts/filters";
+@import "./layouts/project";
+
 @import "./layouts/footer";
+
 @import "./layouts/backdrop";
 @import "./layouts/modal";
 @import "./layouts/form";

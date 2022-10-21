@@ -23,11 +23,37 @@ body {
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
+
+    &--header {
+        display: flex;
+        align-items: center;
+    }
+
+    &--hero {
+        text-align: center;
+    }
+
+    &--footer {
+        display: flex;
+        align-items: baseline;
+    }
+
+
 }
+
+
 
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+
+    &--feature {
+        padding-bottom: 0;
+    }
+
+    &--team {
+        background-color: $light-gray-bg;
+    }
 }
 
 .section.no-padding {
